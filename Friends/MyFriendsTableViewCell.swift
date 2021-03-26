@@ -26,7 +26,9 @@ class MyFriendsTableViewCell: UITableViewCell {
         self.friendCity.text = ("\(user.city?.title ?? "")")
         print("")
         print("\(user.lastName) \(user.firstName)")
+        print("Адрес страницы: \(user.domain)")
         print("Дата рождения: \(user.birthDay)")
+        print("Место работы: \(user.occupation?.name ?? "")")
         if user.onlineStatus == 1 {
             self.friendStatusView.isHidden = false
             print("В сети")
