@@ -12,7 +12,7 @@ class MyGroupsTableViewCell: UITableViewCell {
 
     @IBOutlet weak var groupImage: UIImageView!
     @IBOutlet weak var groupName: UILabel!
-//    @IBOutlet weak var groupImageView: SetImageShadow!
+    @IBOutlet weak var groupImageView: SetImageShadow!
   
     
     func configure(with group: Community) {
