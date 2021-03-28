@@ -15,7 +15,7 @@ class MyFriendsTableViewCell: UITableViewCell {
     @IBOutlet weak var friendName: UILabel!
     @IBOutlet weak var friendCity: UILabel!
     @IBOutlet weak var friendStatusView: UIImageView!
-//    @IBOutlet weak var friendImageView: SetImageShadow!
+    @IBOutlet weak var friendImageView: SetImageShadow!
 //   
 //    
     func configure(with user: Friend) {
