@@ -32,6 +32,8 @@
 		661D93AA25F78EF600AF84DD /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661D93A925F78EF600AF84DD /* Response.swift */; };
 		6667C929260E3AA800E9025B /* ModificationUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6667C928260E3AA800E9025B /* ModificationUIImageView.swift */; };
 		6667C92C2610BC8D00E9025B /* ImagesGalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6667C92B2610BC8D00E9025B /* ImagesGalleryViewController.swift */; };
+		6667C973261A2B8D00E9025B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6667C972261A2B8D00E9025B /* User.swift */; };
+		6667C977261A300E00E9025B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6667C976261A300E00E9025B /* ProfileViewController.swift */; };
 		66938EBB260A29AF0061236E /* NewsFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66938EB9260A29AE0061236E /* NewsFeedCell.swift */; };
 		66938EBC260A29AF0061236E /* NewsFeedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66938EBA260A29AF0061236E /* NewsFeedCell.xib */; };
 		66C68872260BB87200FA7E5D /* NewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C68871260BB87200FA7E5D /* NewsFeedViewController.swift */; };
@@ -66,6 +68,8 @@
 		661D93A925F78EF600AF84DD /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		6667C928260E3AA800E9025B /* ModificationUIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModificationUIImageView.swift; sourceTree = "<group>"; };
 		6667C92B2610BC8D00E9025B /* ImagesGalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesGalleryViewController.swift; sourceTree = "<group>"; };
+		6667C972261A2B8D00E9025B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6667C976261A300E00E9025B /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		66938EB9260A29AE0061236E /* NewsFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedCell.swift; sourceTree = "<group>"; };
 		66938EBA260A29AF0061236E /* NewsFeedCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsFeedCell.xib; sourceTree = "<group>"; };
 		66C68871260BB87200FA7E5D /* NewsFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedViewController.swift; sourceTree = "<group>"; };
@@ -96,6 +100,7 @@
 				661D937025F2605600AF84DD /* Friends */,
 				661D937125F2606600AF84DD /* Groups */,
 				661D938E25F3CE5200AF84DD /* AllGroups */,
+				6667C975261A2FC700E9025B /* Profile */,
 				6667C926260E356100E9025B /* Model */,
 				661D935025F0F5EA00AF84DD /* MProject */,
 				661D934F25F0F5EA00AF84DD /* Products */,
@@ -146,6 +151,7 @@
 				661D938525F2841B00AF84DD /* Friend.swift */,
 				661D938825F284BA00AF84DD /* Photo.swift */,
 				661D938B25F284E200AF84DD /* NewsFeed.swift */,
+				6667C972261A2B8D00E9025B /* User.swift */,
 			);
 			path = VKModel;
 			sourceTree = "<group>";
@@ -194,6 +200,14 @@
 				6667C92B2610BC8D00E9025B /* ImagesGalleryViewController.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		6667C975261A2FC700E9025B /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				6667C976261A300E00E9025B /* ProfileViewController.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 		B01E1B6CD2A26DB2D4D3421C /* Pods */ = {
@@ -349,7 +363,9 @@
 				661D938C25F284E200AF84DD /* NewsFeed.swift in Sources */,
 				661D938625F2841B00AF84DD /* Friend.swift in Sources */,
 				661D939325F3F71B00AF84DD /* MyGroupsTableViewCell.swift in Sources */,
+				6667C973261A2B8D00E9025B /* User.swift in Sources */,
 				661D93A725F78DA100AF84DD /* NetworkConstants.swift in Sources */,
+				6667C977261A300E00E9025B /* ProfileViewController.swift in Sources */,
 				661D939D25F3FA9F00AF84DD /* AllGroupsTableViewCell.swift in Sources */,
 				66C68872260BB87200FA7E5D /* NewsFeedViewController.swift in Sources */,
 			);
