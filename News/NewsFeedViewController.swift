@@ -3,6 +3,8 @@
 //  MProject
 //
 //  Created by Danil G. on 24.03.2021.
+
+// Это черновик. На данный момент проект на доработке. Ликвидируются прошлые хвосты, устраняются недоработки, поэтопно будет выгружаться по готовности.
 //
 
 import UIKit
@@ -27,7 +29,48 @@ class NewsFeedTableViewController: UITableViewController {
 //        tableView.register(UINib(nibName: Constants.newsCellIdentifier, bundle: nil), forCellReuseIdentifier: Constants.newsCellIdentifier)
 //    }
 //
-// 
+// Заметка по 7 уроку!!!
+//    
+//    class Photo {
+//       let id: Int
+//       let date: Date
+//       let width: Int
+//       let height: Int
+//       let url: URL
+//        
+//        
+//        // Добавим вычисляемый параметр aspectRatio
+//          var aspectRatio: CGFloat { return CGFloat(height)/CGFloat(width) }
+//         
+//          init?(json: JSON) {
+//              guard let sizesArray = json["photo"]["sizes"].array,
+//                  let xSize = sizesArray.first(where: { $0["type"].stringValue == "x" }),
+//                  let url = URL(string: xSize["url"].stringValue) else { return nil }
+//             
+//              self.width = xSize["width"].intValue
+//              self.height = xSize["height"].intValue
+//              self.url = url
+//              let timeInterval = json["date"].doubleValue
+//              self.date = Date(timeIntervalSince1970: timeInterval)
+//              self.id = json["id"].intValue
+//          }
+//       }
+//    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+//           switch indexPath.row {
+//           // Ячейки с фото у нас, например, имеют .row == 2
+//           case 2:
+//                   // Вычисляем высоту
+//                   let tableWidth = tableView.bounds.width
+//                   let news = self.news[indexPath.section]
+//                   let cellHeight = tableWidth * news.aspectRatio
+//                   return cellHeight
+//           default:
+//           // Для всех остальных ячеек оставляем автоматически определяемый размер
+//                   return UITableView.automaticDimension
+//              
+//           }
+//       }
+
 //
 //    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
 //        return newsPosts.count
