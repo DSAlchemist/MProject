@@ -37,6 +37,7 @@
 		66938EBB260A29AF0061236E /* NewsFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66938EB9260A29AE0061236E /* NewsFeedCell.swift */; };
 		66938EBC260A29AF0061236E /* NewsFeedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66938EBA260A29AF0061236E /* NewsFeedCell.xib */; };
 		66C68872260BB87200FA7E5D /* NewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C68871260BB87200FA7E5D /* NewsFeedViewController.swift */; };
+		66D7CDFA26430524007B4248 /* NewsPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D7CDF926430524007B4248 /* NewsPost.swift */; };
 		F26F4FB17362F33F469C740F /* Pods_MProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84725E86D04E6EBB313F414C /* Pods_MProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -73,6 +74,7 @@
 		66938EB9260A29AE0061236E /* NewsFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedCell.swift; sourceTree = "<group>"; };
 		66938EBA260A29AF0061236E /* NewsFeedCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsFeedCell.xib; sourceTree = "<group>"; };
 		66C68871260BB87200FA7E5D /* NewsFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedViewController.swift; sourceTree = "<group>"; };
+		66D7CDF926430524007B4248 /* NewsPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsPost.swift; sourceTree = "<group>"; };
 		84725E86D04E6EBB313F414C /* Pods_MProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA79E26F43B52080E530716D /* Pods-MProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MProject.release.xcconfig"; path = "Target Support Files/Pods-MProject/Pods-MProject.release.xcconfig"; sourceTree = "<group>"; };
 		C2C978BE3967D6D727B31F26 /* Pods-MProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MProject.debug.xcconfig"; path = "Target Support Files/Pods-MProject/Pods-MProject.debug.xcconfig"; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				661D938825F284BA00AF84DD /* Photo.swift */,
 				661D938B25F284E200AF84DD /* NewsFeed.swift */,
 				6667C972261A2B8D00E9025B /* User.swift */,
+				66D7CDF926430524007B4248 /* NewsPost.swift */,
 			);
 			path = VKModel;
 			sourceTree = "<group>";
@@ -359,6 +362,7 @@
 				661D935425F0F5EA00AF84DD /* SceneDelegate.swift in Sources */,
 				660E0CE926037A5F007B5625 /* RealmManager.swift in Sources */,
 				661D937D25F26EE500AF84DD /* VkLoginViewController.swift in Sources */,
+				66D7CDFA26430524007B4248 /* NewsPost.swift in Sources */,
 				661D93A325F3FF5800AF84DD /* MyFriendsTableViewCell.swift in Sources */,
 				661D938C25F284E200AF84DD /* NewsFeed.swift in Sources */,
 				661D938625F2841B00AF84DD /* Friend.swift in Sources */,
